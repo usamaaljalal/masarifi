@@ -1,5 +1,6 @@
-// Public browser configuration. Never put secret or service_role keys here.
+// Public Supabase project config. Edit these two values; they are not secret.
+// NEVER put a service_role or sb_secret key here.
 window.MASARIFI_CONFIG = {
-  url: 'https://alrocvjvtaejltlhnult.supabase.co',
-  anonKey: 'sb_publishable_OBcepAaTkOkviVZNFTkr2A_PTRcjupH'
+  url: 'PASTE_SUPABASE_PROJECT_URL',
+  anonKey: 'PASTE_SUPABASE_PUBLISHABLE_KEY'
 };
